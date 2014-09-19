@@ -1,0 +1,347 @@
+@font-face { 
+  font-family: News Cycle; 
+    src: url('../fonts/NewsCycle-Regular.eot'); 
+    src: local("News Cycle"), url('../fonts/NewsCycle-Regular.ttf'); 
+} 
+
+#logo{
+  float:left;
+  margin-right: 150px;}
+
+#pizza_oven , #m_pizza_oven{
+  border: black solid;
+  border-radius: 5px}
+
+html
+{ height: 100%;}
+
+*
+{ margin: 0;
+  padding: 0;}
+
+body
+{ font: normal 90% Arial, Helvetica, sans-serif;
+  background: url('images/green2.jpg');
+  background-size: cover;
+}
+
+article, aside, figure, footer, header, hgroup, nav, section { 
+  display:block;
+}
+
+p
+{ padding: 0 0 10px 0;
+  line-height: 1.7em;
+  font-size: 100% }
+
+img
+{ border: 0;}
+
+h1, h2, h3
+{ font: normal 175% 'News Cycle', Arial, sans-serif;
+  color: #000;
+  letter-spacing: -1px;
+  margin: 0 0 10px 0;}
+
+h1 {
+  margin-top: 15px}
+h2
+{ font: normal 165% 'News Cycle', Arial, sans-serif;}
+
+h3
+{ font: normal 130% 'News Cycle', Arial, sans-serif;}
+
+#title {
+float:left;}
+  
+span
+{ color: #B1521A;
+  text-shadow: none;}
+
+a, a:hover
+{ color: #000;
+  background: transparent;
+  font-weight: bold;
+  outline: none;
+  text-decoration: underline;}
+
+a:hover
+{ text-decoration: none;}
+
+ul
+{ margin: 2px 0 22px 30px;
+  line-height: 1.7em;
+  font-style: normal;
+  font-size: 100%;}
+
+#main, header, #menubar, #site_content, footer, #content_grey, nav, #slideshow_container, #whole
+{ margin-left: auto; 
+  margin-right: auto;}
+
+#whole {
+  width: 1050px;
+  margin-top: 5px;
+  border: 10px solid black;
+  border-radius: 20px;
+  background-color: white;}
+  
+header
+{ height: 150px;
+  background: linear-gradient(#535353, #000);}
+
+nav
+{ height: 60px;}  
+  
+#strapline
+{ width: 940px;
+  height: 80px;
+  text-align: center; 
+  margin: 0 auto;} 
+  
+#welcome_slogan
+{ width: 940px;
+  float: left;
+  height: 70px;
+  padding-top: 10px;  
+  margin: 0 auto;}    
+  
+#welcome_slogan h3
+{ font: bold 300% 'News Cycle', Arial, sans-serif;
+  letter-spacing: -3px;
+  color: #FFF;} 
+  
+#menubar
+{ width: 940px;
+  height: 55px;
+  padding-top: 10px;
+  text-align: center; 
+  margin: 0 auto;
+  border: blue;}    
+  
+ul#nav
+{ margin:0;}
+
+ul#nav li
+{ padding: 0 0 0 0px;
+  list-style: none;
+  margin: 2px 0 0 0;
+  display: inline;}
+
+ul#nav li a, ul#m_nav li a
+{ float: left;
+  font: bold 130% 'News Cycle', Arial, sans-serif;
+  height: 24px;
+  margin: 8px 20px 0 0;
+  text-shadow: 0px 1px 0px #000;
+  padding: 0px 20px 10px 20px;
+  background: transparent; 
+  border-radius: 7px 7px 7px 7px;
+  text-align: center;
+  color: #FFF;
+  text-decoration: none;} 
+  
+ul#nav li.current a, ul#nav li:hover a, ul#m_nav li.current a, ul#m_nav li:hover a
+{ text-decoration: underline;}
+ 
+ul img {
+  border: none;
+  color:purple;}
+
+#site_content
+{ width: 940px;
+  overflow: hidden;} 
+
+.sidebar_container
+{ float: right;
+  margin: 20px 0 0 10px;
+  width: 240px;}
+
+.sidebar
+{ float: left;
+  width: 240px;
+  margin-bottom: 10px;}
+
+.sidebar_item
+{ font: normal 100% Arial, Helvetica, sans-serif;
+  width: 240px;}
+
+.sidebar h2
+{ padding: 5px 0 0 0;
+  font: normal 140% 'News Cycle', Arial, sans-serif;
+  height: 30px;}  
+
+#content
+{ width: 680px;
+  margin: 0 0 20px 0;
+  float: left;}
+
+.content_item
+{ width: 680px;
+  margin-top: 20px;
+  margin-bottom: 20px;}
+  
+.content_container
+{ width: 330px;
+  margin: 20px 10px 0 0;
+  float: left;}
+
+  
+footer
+{ width: 100%;
+  height: 50px;
+  padding-top: 25px;
+  padding-bottom: 20px;  
+  font-weight: bold;
+  text-align: center; 
+  text-shadow: 1px 1px #000;
+  color: #FFF;
+  background-color: green;
+  border-radius: 15px 15px 15px 15px;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;}
+
+footer a, footer a:hover
+{ text-shadow: 1px 1px #FFF;
+  color: #1D1D1D;
+  text-decoration: none;
+  padding-bottom: 20px;}
+
+footer a:hover
+{ text-decoration: underline;}
+
+footer a, footer a:hover
+{ text-shadow: 1px 1px #000;
+  color: #FFF;
+  text-decoration: none;}
+
+footer a:hover
+{ text-decoration: underline;}
+
+  .rights{color:#000;
+    font-size: 10px;
+    margin-left: 10px}
+    
+#menubar ul li {
+  display: inline-block;
+  min-width: 20%;}
+
+  nav {
+  text-align: center;
+  }
+
+  #menubar {
+    text-align: center;
+  }
+
+  #mobile {
+    display: none;}
+
+  @media(max-width: 480px) {
+      #main, footer{
+        display: none;
+      }
+
+      #mobile, #m_footer {
+        display: block;
+        overflow: hidden;
+      }
+
+      img {
+        overflow: hidden;
+      }
+
+      ul#m_nav {
+      list-style-type: none;
+      float: left;
+      margin-left: 20px;}
+
+      ul#m_nav li a {
+        text-align: center;
+        margin: auto;
+        margin-top: 15px;}
+
+      ul#m_nav {
+        text-align: center;
+        position: absolute;
+        top: 10px;
+      }
+
+      #m_para {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        margin-right: 5%;
+        width: 60%;
+      }
+
+      #m_para ul {
+        list-style-type: none;
+      }
+
+      #m_logo {
+        float: left;
+      }
+
+      #m_content {
+        background-color: white;
+        padding: 10px;
+        width: 80%;
+        text-align: left;
+        position: absolute;
+        top: 250px;
+        left: 6.5%;
+        margin: auto;
+        border: 5px solid black;
+        border-radius: 10px;
+      }
+
+      #m_content h3 {
+        margin-top: 45px;
+        text-align: center;
+        font-size: 20px;
+      }
+
+      #m_pizza_oven {
+        margin-top: 20px;
+        margin-top: 20px;
+        width: 100%;
+        height: 140px;
+        border: green solid 1px;
+      }
+      #m_content p {
+        margin: 0;
+        margin-bottom: 25px;
+        padding: 0;
+        float: left;
+        font-size: 16px;
+      }
+
+      #m_footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        height: 25px;
+        padding-top: 10px;
+        border-radius: 0;
+      }
+
+      #m_footer div {
+        margin-top: 3px;
+      }
+
+      #background {
+        background:linear-gradient(#535353, #000);
+        width: 100%;
+        height: 230px;
+        margin:0;
+      }
+
+      #back_image {
+        width:100%;
+        height: 260%;
+        position: absolute;
+        top: 230px;
+        bottom: 0;
+        background-image: url('images/green.png');
+      }
+  }

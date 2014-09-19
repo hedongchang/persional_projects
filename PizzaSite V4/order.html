@@ -1,0 +1,175 @@
+<!DOCTYPE html> 
+<html>
+
+<head>
+  <title>Dawg Pizza Home Page</title>
+  <meta name="author" content="Dongchang He" />
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+  <meta charset="UTF-8">
+  <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+  <link rel="stylesheet" type="text/css" href="menu.css" />
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+  </head>
+
+<body>
+  <div id="main">   
+
+    <header>
+    <div id="strapline">
+      <div id="welcome_slogan">
+        <a href="home.html">
+        <img id="logo" width=150 height = 50 src="images/logo.png" alt = "logo">
+      </a>
+        <h3 id="title">Order at Dawg <span>Pizza</span></h3>
+      </div><!--close welcome_slogan-->
+      <hr>
+      </div><!--close strapline-->    
+      <nav>
+      <div id="menubar">
+          <ul id="nav">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li ><a href="aboutUs.html">About Us</a></li>
+            <li class="current"><a href="jobs.html">Jobs</a></li>
+          </ul>
+        </div><!--close menubar-->  
+      </nav>
+    </header>
+  
+  <div id="whole">
+  <div id="site_content">   
+    
+    <div class="sidebar_container">       
+    <div class="sidebar">
+          <div class="sidebar_item">
+            <h2>View your orders</h2>
+            <p id = 'view'> </p>
+            <p id = 'price'> </p>
+          </div><!--close sidebar_item--> 
+        </div><!--close sidebar-->      
+
+        <div class="sidebar">
+          <div class="sidebar_item">
+            <button id = 'remove'> Remove </button>
+            <button id = 'startOver'> Start Over </button>
+        <form action = 'http://dawgpizza.com/orders/' method = 'POST'>    
+            <input type="hidden" name = 'cart' id = 'cart'> <br>
+            <input type = 'submit' value = "Check Out">
+      </form>
+            
+          
+          </div><!--close sidebar_item--> 
+        </div>  
+        
+        <div class="sidebar">
+          <div class="sidebar_item">
+            <h2>Contact</h2>
+            <p>Phone Number: 206 555-1212 </p>
+            <p>Email Address: <a href="mailto:dawgpizzaseattle@gmail.com"> dawgpizzaseattle@gmail.com</a></p>
+            <p>Twitter Account: <a href='https://twitter.com/DawgPizzaSea'> Follow us! </a> </p>
+          </div><!--close sidebar_item--> 
+        </div><!--close sidebar-->
+      
+      <div class="sidebar">
+          <div class="sidebar_item">
+            <img width=225 height=180 id="pizza_oven" src='images/pizza-oven.jpg' alt="pizza-oven">
+          </div><!--close sidebar_item--> 
+        </div>
+
+       </div><!--close sidebar_container-->
+     
+    <div id="content">
+        <div class="content_item">
+
+    <div class = 'menu'>
+      <div class = 'template'>
+      <div class = 'entry'> </div>
+      <ul class = 'menu_list'>
+      <b><li class = 'name click1'> </li></b>
+      <span class = 'click' id = 'button1'></span>
+      <span class = 'click' id = 'button2'></span>
+      <span class = 'click' id = 'button3'></span>
+      </ul>
+    </div>
+  </div>
+
+    <div class = 'menu1'>
+      <div class = 'template1'>
+      <div class = 'entry'> </div>
+      <ul class = 'menu_list'>
+      <b><li class = 'name1 name click1'> </li></b>
+      <span class = 'click' id = 'button1'></span>
+      <span class = 'click' id = 'button2'></span>
+      <span class = 'click' id = 'button3'></span>
+      </ul>
+    </div>
+    </div>
+
+    <div class = 'menu2'>
+      <div class = 'template2'>
+      <span class = 'entry1'> </span>
+      <ul class = 'menu_list drinks'>
+      <li class = 'name2 click1'> </li>
+      </ul>
+    </div>
+    </div>
+      
+    </div><!--close content_item-->
+      </div><!--close content-->   
+  </div><!--close site_content-->   
+  
+  </div><!--close whole-->
+  
+</div><!--close main-->
+<footer>
+    <a href="home.html">Home</a> | <a href="menu.html">Menu</a> | <a href="aboutUs.html">About Us</a> | <a href="jobs.html">Jobs</a> <br/><br/> Call us for delivery: 206-555-1212! <span class="rights"> &#169; All rights reserved </span>
+    </footer>
+
+<div id = "mobile">
+    <div id="background"> </div>
+    <div id = "back_image"></div>
+<div id = "m_header">
+  <nav>
+      <div id="m_menubar">
+          <ul id="m_nav">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="aboutUs.html">About Us</a></li>
+            <li class="current"><a href="jobs.html">Jobs</a></li>
+          </ul>
+        </div><!--close menubar-->  
+  </nav>
+
+  <div id ='m_para'>
+    <ul>
+    <li><img id="m_pizza_oven" width=200 height =150 src="images/pizza-oven.jpg" alt="oven"></li>
+  </ul>
+  </div>
+  </div> <!--close m_header-->
+
+  <section id = "m_content">
+    <a href="home.html">
+    <img id="m_logo" width=100 height = 30 src="images/logo.png" alt="logo"> 
+  </a>
+
+  <h3>  We are hiring kitchen staff and delievery driver ! 
+  </h3>
+    <div id = "m_troll"><img width="200" height="200" src="images/troll.png" alt="troll"></div>
+    <p>Contact us if you want to make contributions to UW community!</p>
+   
+</section> <!--close m_content-->
+
+<footer id="m_footer">
+    <a href="home.html">Home</a> | <a href="menu.html">Menu</a> | <a href="aboutUs.html">About Us</a> | <a href="jobs.html">Jobs</a>
+    <div> Call us for delivery: 206-555-1212! <span class="rights"> &#169; All rights reserved </span> </div>
+    </footer>
+
+</div> <!--close mobile-->
+
+<script type="text/javascript" src='menu.js'></script>
+<script type="text/javascript" src='template.js'></script>
+<script type="text/javascript" src='order.js'></script>
+  
+</body>
+</html>
